@@ -4,70 +4,27 @@ body {
   background-color: #ffffff;
   font-family: 'Oxygen', sans-serif;
 }
-  
-#navbar { 
-  background-color: #008f39; 
-  color: white; 
-  position: fixed; 
-  width: 100%; 
-  top: 0; 
-  transition: top 0.3s; 
-} 
- 
+
+/*TITLE */
 h2 {
-  padding-top: 100px;
+  padding-top: 200px;
   margin: 20px;
   color: black;
   font-size: 2em;
   text-align: center;
+  clear:both;
 }
 
-#nav-list {
-  margin-top: 10px;
+.main-content {
+  height: 2000px; /* Just to create scrolling */ 
+  color: black;  
 }
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-
-
 
 div #main-text {
   background-color: lightgray;
   padding: 20px;
   margin: 20px;
   width: 90%;
-}
-
-#navbar nav ul { 
-  list-style-type: none; 
-  margin: 0; 
-  padding: 0; 
-  display: flex; 
-} 
- 
-#navbar nav ul li { 
-  margin: 0 15px; 
-} 
- 
-#navbar nav ul li a { 
-  color: white; 
-  text-decoration: none; 
-} 
-
-.main-title {
-  clear: both;
-
-} 
-.main-content {
-  height: 2000px; /* Just to create scrolling */ 
-  color: black;
 }
 
 /** HEADER **/
@@ -86,5 +43,31 @@ div #main-text {
   margin-top: 0;
   margin-left: 0;
   padding:0;
-  line-height: .75;
+  line-height: .5;
 }
+
+/* NAVIGATION BAR */
+  
+#navbar { 
+  background-color: #ffffff; 
+  color: black;  
+  position: fixed; 
+  width: 100%; 
+  top: 0; 
+  transition: top 0.3s; 
+} 
+ 
+.nav > li{
+text-align: center;
+width: 100%;
+}
+
+
+#navbar nav ul { 
+  background-color: #ffffff;
+  width: 120%;
+  list-style-type: none; 
+/*  margin: 0; */
+/*  padding: 0;*/
+} 
+
